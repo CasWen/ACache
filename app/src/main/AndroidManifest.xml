@@ -15,6 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AboutActivity"/>
+        <activity android:name=".SaveBitmapActivity"/>
+        <activity android:name=".SaveDrawableActivity"/>
+        <activity android:name=".SaveJsonArrayActivity"/>
+        <activity android:name=".SaveJsonObjectActivity"/>
+        <activity android:name=".SaveMediaActivity"/>
+        <activity android:name=".SaveStringActivity"/>
+        <activity android:name=".SaveObjectActivity"/>
+
     </application>
 
 </manifest>

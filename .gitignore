@@ -7,3 +7,6 @@
 /build
 /captures
 .externalNativeBuild
+acache/libs/
+acache/src/main/res/drawable/
+app/libs/
