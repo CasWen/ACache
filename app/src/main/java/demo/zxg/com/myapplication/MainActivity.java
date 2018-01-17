@@ -24,11 +24,11 @@ public class MainActivity extends AppCompatActivity {
 	}
 
 	public void string(View v) {
-		startActivity(new Intent().setClass(this, SaveStringActivity.class));
+		startActivity(new Intent().setClass(MainActivity.this, SaveStringActivity.class));
 	}
 
 	public void jsonobject(View v) {
-		startActivity(new Intent().setClass(this, SaveJsonObjectActivity.class));
+		startActivity(new Intent().setClass(this, ReadJsonObjectActivity.class));
 	}
 
 	public void jsonarray(View v) {

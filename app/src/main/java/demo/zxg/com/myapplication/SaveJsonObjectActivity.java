@@ -38,8 +38,13 @@ public class SaveJsonObjectActivity extends Activity {
 		mCache = ACache.get(this);
 		jsonObject = new JSONObject();
 		try {
-			jsonObject.put("name", "Yoson");
+			jsonObject.put("name", "李刚");
 			jsonObject.put("age", 18);
+			jsonObject.put("job","程序员");
+			jsonObject.put("job11","程序员11");
+			jsonObject.put("job22","程序员22");
+			jsonObject.put("job33","程序员33");
+
 		} catch (JSONException e) {
 			e.printStackTrace();
 		}
@@ -60,7 +65,8 @@ public class SaveJsonObjectActivity extends Activity {
 	 * @param v
 	 */
 	public void save(View v) {
-		mCache.put("testJsonObject", jsonObject);
+        JSONObject testJsonObject = mCache.getAsJSONObject("testJsonObject");
+		mCache.put("testJsonObject", testJsonObject);
 	}
 
 	/**

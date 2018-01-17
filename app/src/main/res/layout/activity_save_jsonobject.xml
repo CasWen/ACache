@@ -6,22 +6,23 @@
     android:orientation="vertical" >
 
     <Button
+        android:id="@+id/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="save"
-        android:text="save" />
+
+        android:text="保存" />
+    <!--android:onClick="save"-->
+    <Button
+        android:id="@+id/read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取" />
 
     <Button
+        android:id="@+id/clear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="read"
-        android:text="read" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="clear"
-        android:text="clear this JsonObject" />
+        android:text="清除" />
 
     <TextView
         android:id="@+id/tv_jsonobject_original"

@@ -36,7 +36,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * Created by ZhengXiaoGuo on 2017/1/13.
+ *一个轻量型缓存
+ * ACache 是一个为android制定的 轻量级的 开源缓存框架。轻量到只有一个java文件
  */
 
 public class ACache {
